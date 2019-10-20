@@ -1,4 +1,12 @@
 body{
     margin: 0;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Prompt', sans-serif !important;
+}
+
+/*-------------------------------Cover-------------------------------*/
+
+.cover{
+    background-color: rgb(153, 153, 153);
+    width: auto;
+    height: 55vh;
 }
