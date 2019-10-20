@@ -6,6 +6,14 @@ body{
 
 /*-------------------------------Cover-------------------------------*/
 
+.active{
+    background-color: #cccccc;
+    border-radius: 5em;
+}
+
+
+/*-------------------------------Cover-------------------------------*/
+
 .cover{
     background-color: rgb(153, 153, 153);
     width: auto;
@@ -27,8 +35,17 @@ body{
     border-radius: 1em !important;
 }
 
+.img_card{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.title_card{
+    color: #669999;
 }
   
 .container_card {
