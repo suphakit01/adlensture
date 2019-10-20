@@ -1,4 +1,5 @@
 body{
+    color: #666666;
     margin: 0;
     font-family: 'Prompt', sans-serif !important;
 }
@@ -10,3 +11,32 @@ body{
     width: auto;
     height: 55vh;
 }
+
+/*-------------------------------category-------------------------------*/
+
+.category{
+    color: #666666;    
+    margin-top: 5em;
+}
+
+/*-------------------------------blog-------------------------------*/
+
+.blog{
+    color: #666666;    
+    margin-top: 5em;
+}
+
+/*-------------------------------gallary-------------------------------*/
+
+.gallary{
+    color: #666666;    
+    margin-top: 5em;
+}
+
+/*-------------------------------about-------------------------------*/
+
+.about{
+    color: #666666;    
+    margin-top: 5em;
+}
+
