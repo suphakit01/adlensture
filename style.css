@@ -4,11 +4,16 @@ body{
     font-family: 'Prompt', sans-serif !important;
 }
 
-/*-------------------------------Cover-------------------------------*/
+/*-------------------------------Nav Bar-------------------------------*/
 
 .active{
-    background-color: #cccccc;
+    background-color: rgb(234, 234, 234, 80%);
     border-radius: 5em;
+}
+
+.navbar-nav{
+    margin-top: 0.2em;
+    text-align: center;
 }
 
 
@@ -74,11 +79,70 @@ body{
     margin-top: 5em;
 }
 
+.img_tumbnail_blog{
+    border-radius: 1em;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.author{
+    color: #cccccc;
+}
+
+.blog_button{
+    border-radius: 1em;
+    background-color: #cccccc;
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 0em 1em 0em 1em;
+    text-decoration: none !important;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.blog_button:hover{
+    color: white;
+    background-color: #339999;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
 /*-------------------------------gallary-------------------------------*/
 
 .gallary{
     color: #666666;    
     margin-top: 5em;
+}
+
+.img_tumbnail_gallary{
+    border-radius: 1em;
+    width: 100%;
+    height: 480px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.img_tumbnail_gallary:hover{
+    transform: scale(1.02);
+}
+
+.gallary_button{
+    border-radius: 1em;
+    background-color: #339999;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    color: white;
+    padding: 0.5em 1em 0.5em 1em;
+    text-decoration: none !important;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.gallary_button:hover{
+    color: white;
+    background-color: #cccccc;
+    transform: scale(1.05);
 }
 
 /*-------------------------------about-------------------------------*/
