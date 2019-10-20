@@ -149,6 +149,22 @@ body{
 
 .about{
     color: #666666;    
-    margin-top: 5em;
+    margin-top: 25em;
+    margin-bottom: 10em;
+}
+
+.img_tumbnail_about{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 1em;
+}
+
+.profile_frame{
+    border: 0.5px rgb(0, 0, 0, 10%) solid;
+    margin: 1em;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
