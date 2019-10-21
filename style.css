@@ -31,6 +31,10 @@ body{
 }
 
 
+
+
+/*-------------------------------Index Home-------------------------------*/
+
 /*-------------------------------Cover Home-------------------------------*/
 
 .cover{
@@ -44,6 +48,10 @@ body{
 .category{
     color: #666666;    
     margin-top: 5em;
+}
+
+.padding_blog_home{
+    padding: 0em 5vw 0em 5vw;
 }
 
 .card {
@@ -186,16 +194,18 @@ body{
 
 
 
+/*---------------------------------- category_1 --------------------------------*/
 
+/*--------------------------------Category | Body-------------------------------*/
 
-/*----------------------------------Page STYLE----------------------------------*/
-
-/*---------------------------------Category Page--------------------------------*/
+.title_category{
+    color: #666666 !important;
+}
 
 .bg_body_up_category{
     background-color: white;
     width: 100%;
-    padding: 2em 8em 2em 8em !important;
+    padding: 2em 10vw 2em 10vw !important;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
@@ -234,11 +244,16 @@ body{
 }
 
 .category_blog_space{
+    margin-top: 3em;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 1em;
     padding: 1em;
+    transition: 0.3s;
 }
 
+.category_blog_space:hover{
+    transform: scale(1.02);
+}
 
 
 
@@ -282,7 +297,7 @@ body{
 }
 
 .content_blog{
-    padding: 2em 8em 0em 8em;
+    padding: 2em 10vw 0em 10vw;
 }
 
 .subtitle{
@@ -307,7 +322,10 @@ body{
 
 .end_body{
     margin-top: 5em;
-    color: #666666;
+}
+
+.title_blog_end_body{
+    color: #666666 !important;
 }
 
 .card_next_blog {
@@ -348,4 +366,16 @@ body{
   
 .container_card {
     padding: 1em;
+}
+
+
+
+
+
+/*------------------------------------ Home ------------------------------------*/
+
+/*---------------------------------- Category ----------------------------------*/
+
+.title_category{
+    margin: 3em 0em 0em 0em;
 }
