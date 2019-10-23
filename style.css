@@ -1,5 +1,5 @@
 body{
-    color: #666666;
+    color: #666666 !important;
     margin: 0;
     font-family: 'Prompt', sans-serif !important;
 }
@@ -14,7 +14,7 @@ body{
 }
 
 .bookmarks{
-    margin-top: 10em;
+    margin-top: 10vw;
 }
 
 .no_bookmarks{
@@ -85,7 +85,7 @@ body{
 }
 
 .category{
-    color: #666666;
+    color: #666666 !important;
 }
 
 .padding_blog_home{
@@ -135,7 +135,7 @@ body{
 /*-------------------------------Blog Home-------------------------------*/
 
 .blog{
-    color: #666666;    
+    color: #666666 !important;    
     margin-top: 5em;
 }
 
@@ -148,19 +148,19 @@ body{
 }
 
 .author{
-    color: #cccccc;
+    color: #cccccc !important;
     font-size: 10%;
 }
 
 .title_blog_home{
-    color: #666666;
+    color: #666666 !important;
     font-size: 150%;
 }
 
 
 .blog_button{
     border-radius: 1em;
-    background-color: #cccccc;
+    background-color: #cccccc !important;
     width: 100%;
     height: 100%;
     color: white;
@@ -168,6 +168,7 @@ body{
     text-decoration: none !important;
     transition: 0.3s;
     cursor: pointer;
+    margin-top: 1vw;
 }
 
 .blog_button:hover{
@@ -179,7 +180,7 @@ body{
 /*-------------------------------Gallery Home-------------------------------*/
 
 .gallery{
-    color: #666666;    
+    color: #666666 !important;    
 }
 
 .img_tumbnail_gallery{
@@ -208,14 +209,14 @@ body{
 
 .see_all_button:hover{
     color: white;
-    background-color: #cccccc;
+    background-color: #cccccc !important;
     transform: scale(1.05);
 }
 
 /*-------------------------------About Home-------------------------------*/
 
 .about{
-    color: #666666;    
+    color: #666666 !important;    
     margin-top: 25em;
     margin-bottom: 10em;
 }
@@ -271,7 +272,7 @@ body{
 
 .category_button{
     border-radius: 1em;
-    background-color: #cccccc;
+    background-color: #cccccc !important;
     width: 100%;
     height: 100%;
     color: white;
@@ -416,7 +417,7 @@ body{
 
 /*---------------------------------------------------------------------------*/
 
-.img_gallery_card{
+.middle_post{
     width: 100%;
     height: 100%;
     box-shadow: 0 4px 8px 0 rgba(168, 168, 168, 0.1);
@@ -424,16 +425,23 @@ body{
 }
 
 .img_gallery_user{
-    margin: auto;
+    margin: auto 0 auto auto;
     border-radius: 50%;
-    width: 4vw;
-    height: 4vw;
+    width: 6vw;
+    height: 6vw;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .user_text_name_gallery{
     color: #666666 !important;
-    margin: auto;
+    margin: 0;
+    font-size: 2.5vw;
+}
+
+.web_location{
+    color: #cccccc !important;
+    font-size: 1vw;
+    margin: 0;
 }
 
 .user_subtext_name_gallery{
@@ -453,21 +461,27 @@ body{
     transform: scale(1.05);
 }
 
-.user_name_gallery{
+.top_post{
     padding: 2.5vh 1.5vw 2vh 1.5vw;
+}
+
+.profile_gallery{
+    margin: auto;
 }
 
 .user_name_right_gallery{
     padding-left: 0 !important;
+    margin: auto;
 }
 
 .caption_gallery{
     color: #999999;
     padding: 2em 2vw 0em 2vw;
+    font-size: 1.4vw;
 }
 
 .time_caption_gallery{
-    color: #cccccc;
+    color: #cccccc !important;
     padding: 0em 2vw 2em 2vw;
     font-size: 0.8em;
 }
