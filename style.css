@@ -10,7 +10,6 @@ body{
 
 .unlinks a{
     text-decoration: none !important;
-    color: #999999 !important;
 }
 
 .bookmarks{
@@ -163,7 +162,7 @@ body{
     background-color: #cccccc !important;
     width: 100%;
     height: 100%;
-    color: white;
+    color: white !important;
     padding: 0em 1em 0em 1em;
     text-decoration: none !important;
     transition: 0.3s;
@@ -172,8 +171,8 @@ body{
 }
 
 .blog_button:hover{
-    color: white;
-    background-color: #339999;
+    color: white !important;
+    background-color: #339999 !important;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
@@ -198,9 +197,9 @@ body{
 
 .see_all_button{
     border-radius: 1em;
-    background-color: #339999;
+    background-color: #339999 !important;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    color: white;
+    color: white !important;
     padding: 0.5em 1em 0.5em 1em;
     text-decoration: none !important;
     transition: 0.3s;
@@ -208,7 +207,7 @@ body{
 }
 
 .see_all_button:hover{
-    color: white;
+    color: white !important;
     background-color: #cccccc !important;
     transform: scale(1.05);
 }
@@ -239,7 +238,7 @@ body{
 .text_about{
     padding: 10vw;
     text-align: center;
-    color: #999999;
+    color: #999999 !important;
 }
 
 
@@ -275,7 +274,7 @@ body{
     background-color: #cccccc !important;
     width: 100%;
     height: 100%;
-    color: white;
+    color: white !important;
     padding: 0em 1em 0em 1em;
     text-decoration: none !important;
     transition: 0.3s;
@@ -283,8 +282,8 @@ body{
 }
 
 .category_button:hover{
-    color: white;
-    background-color: #339999;
+    color: white !important;
+    background-color: #339999 !important;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
@@ -331,7 +330,7 @@ body{
 .date{
     border-radius: 1em;
     background-color: #339999;
-    color: white;
+    color: white !important;
     padding: 0em 0.5em 0em 0.5em;
     margin-right: 1em;
 }
@@ -389,7 +388,7 @@ body{
 }
 
 .title_card_next_blog{
-    color: #669999;
+    color: #669999 !important;
 }
 
 .equal-height-columns{
@@ -475,7 +474,7 @@ body{
 }
 
 .caption_gallery{
-    color: #999999;
+    color: #999999 !important;
     padding: 2em 2vw 0em 2vw;
     font-size: 1.4vw;
 }
@@ -514,7 +513,7 @@ body{
     font-style: normal;
     font-size: 3em;
     line-height: 50px;
-    color: #fff;
+    color: #fff !important;
 }
 
 #button:hover {
