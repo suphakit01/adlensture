@@ -489,3 +489,44 @@ body{
 
 
 /*-------------------------------------------------------------------*/
+
+#button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 1em;
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#button::after {
+    content: "\f0d8";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3em;
+    line-height: 50px;
+    color: #fff;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: #666666;
+}
+
+#button:active {
+    background-color: #999999;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
