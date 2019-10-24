@@ -148,7 +148,7 @@ body{
 
 .author{
     color: #cccccc !important;
-    font-size: 10%;
+    font-size: 12%;
 }
 
 .title_blog_home{
@@ -259,6 +259,7 @@ body{
 .category_teaser{
     font-family: 'Sarabun', sans-serif !important;
     color: #666666 !important;
+    margin-bottom: .7em;
 }
 
 .img_tumbnail_category{
@@ -407,6 +408,11 @@ body{
     padding: 1em;
 }
 
+.blog_add{
+    color: #cccccc !important;
+    font-size: 10px;
+}
+
 
 
 
@@ -434,12 +440,13 @@ body{
 .user_text_name_gallery{
     color: #666666 !important;
     margin: 0;
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 
 .web_location{
     color: #cccccc !important;
-    font-size: 1w;
+    font-size: 10px;
+    margin: 0;
 }
 
 .user_subtext_name_gallery{
