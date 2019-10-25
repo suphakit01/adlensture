@@ -1,0 +1,11 @@
+# button_main : 
+    linear-gradient(to right, #79CBCA 0%, #07a3b2 100%)
+
+# Text :
+    pimary_txt : #666666
+    secondary_txt : #999999
+    muted_color : #cccccc
+
+
+    heading : H2, #666666
+    Topic : H2, #07a3b2
