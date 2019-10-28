@@ -313,7 +313,7 @@ body{
 }
 
 .detail_blog{
-    display: flex;
+    margin-left: 0px !important;
 }
 
 .date{
