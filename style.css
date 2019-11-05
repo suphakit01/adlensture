@@ -262,12 +262,6 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-/* @media (max-width:767px){
-    .bg_body_up_category{
-        padding: 2em 1em 2em 1em !important;
-    }
-} */
-
 .category_teaser{
     font-family: 'Sarabun', sans-serif !important;
     color: #666666 !important;
@@ -314,7 +308,7 @@ body{
 .bg_body_up_blog{
     background-color: white;
     width: 100%;
-    padding: 0 !important;
+    padding: 2em 10vw 2em 10vw !important;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
