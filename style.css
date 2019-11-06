@@ -113,7 +113,7 @@ body{
 
 /*-------------------------------Index Home-------------------------------*/
 
-/*-------------------------------Cover Home-------------------------------*/
+/*Cover Home-------------------------------*/
 
 .cover{
     width: auto;
@@ -125,7 +125,7 @@ body{
     height: 480px;
 }
 
-/*-------------------------------category Home-------------------------------*/
+/*category Home-------------------------------*/
 
 .title_1{
     margin-top: 0;
@@ -175,7 +175,7 @@ body{
     padding: 2em;
 }
 
-/*-------------------------------Blog Home-------------------------------*/
+/*Blog Home-------------------------------*/
 
 .blog{
     color: #666666 !important;    
@@ -201,7 +201,7 @@ body{
     margin: 0;
 }
 
-/*-------------------------------Gallery Home-------------------------------*/
+/*Gallery Home-------------------------------*/
 
 .gallery{
     color: #666666 !important;    
@@ -220,7 +220,7 @@ body{
     transform: scale(1.02);
 }
 
-/*-------------------------------About Home-------------------------------*/
+/*About Home-------------------------------*/
 
 .about{
     color: #666666 !important;    
@@ -255,7 +255,7 @@ body{
 
 /*---------------------------------- category_1 --------------------------------*/
 
-/*--------------------------------Category | Body-------------------------------*/
+/*Category | Body-------------------------------*/
 
 .bg_body_up_category{
     background-color: white;
@@ -264,11 +264,12 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-@media (max-width: 1200px){
+/*remark*/
+/* @media (max-width: 1200px){
     .bg_body_up_category{
         padding: 3em 3em 1em 3em !important;
     }
-}
+} */
 
 .category_teaser{
     font-family: 'Sarabun', sans-serif !important;
@@ -310,7 +311,7 @@ body{
 
 /*----------------------------------BLOG STYLE----------------------------------*/
 
-/*-------------------------------Blog Page | Body-------------------------------*/
+/*Blog Page | Body-------------------------------*/
 
 .bg_body_up_blog{
     background-color: white;
@@ -343,12 +344,12 @@ body{
 .content_blog{
     padding: 2em 10vw 0em 10vw;
 }
-
-@media (min-width: 1200px){
+/*remark*/
+/* @media (min-width: 1200px){
     .content_blog{
         padding: 3em 3em 1em 3em !important;
     }
-}
+} */
 
 .subtitle{
     color: #339999 !important;
@@ -368,7 +369,7 @@ body{
     height: 100%;
 }
 
-/*-------------------------------Blog Page | End Body-------------------------------*/
+/*Blog Page | End Body-------------------------------*/
 
 .end_body{
     margin-top: 5em;
@@ -430,7 +431,7 @@ body{
 
 /*------------------------------- home_gallery ------------------------------*/
 
-/*---------------------------------------------------------------------------*/
+/*-------------------------------------*/
 
 .bg_body_up_gallery{
     background-color: white;
