@@ -85,6 +85,11 @@ body{
     transform: scale(1.05);
 }
 
+@media (min-width: 1920px){
+    .container{
+        max-width: 70vw !important;
+    }
+}
 
 
 /*-------------------------------Nav Bar-------------------------------*/
