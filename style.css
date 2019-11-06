@@ -307,7 +307,7 @@ body{
 .bg_body_up_blog{
     background-color: white;
     width: 100%;
-    padding: 2em 10vw 2em 10vw !important;
+    padding: 0 !important;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
