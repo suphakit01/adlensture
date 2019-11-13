@@ -451,14 +451,16 @@ body {
 /*-------------------------------------*/
 
 .img_gallery {
-    width: 90%;
+    width: 100%;
     height: auto;
     border-radius: 1em;
+    margin-top: 2em;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
-.img_gallery_container {
-    margin-right: none !important;
-    margin-left: none !important;
+.img_gallery:hover {
+    transform: scale(1.03);
 }
 
 

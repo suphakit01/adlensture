@@ -44,7 +44,7 @@
                     <a class="nav-link" href="home_blog_post.html">บทความ</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="home_gallery.html">แกลอรี<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="home_gallery.php">แกลอรี<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="home_about.html">เกี่ยวกับ</a>
@@ -57,54 +57,32 @@
 
     <!----------------------------------- Gallery Contents ----------------------------------->
 
-    <div class="row">
-        <!-- column1 -->
-        <div class="col-3 p-0">
-            <div class="row">
-                <img class="img_gallery" src="../scr/gallery2/001.jpg" alt="">
-            </div>
-            <div class="row">
-                <img class="img_gallery" src="../scr/gallery2/003.jpg" alt="">
-            </div>
-            <div class="row">
-                <img class="img_gallery" src="../scr/gallery2/003.jpg" alt="">
-            </div>
-        </div>
-
-        <!-- column2 -->
-        <div class="col-3 p-0">
-            <div class="row">
-                <img class="img_gallery" src="../scr/gallery2/004.jpg" alt="">
-            </div>
-            <div class="row">
-                <img class="img_gallery" src="../scr/gallery2/005.jpg" alt="">
-            </div>
-            <div class="row">
-                <img class="img_gallery" src="../scr/gallery2/006.jpg" alt="">
-            </div>
-        </div>
-
-        <!-- column3 -->
-        <div class="col-3 p-0">
-            <div class="row">
-                <img class="img_gallery" src="../scr/gallery2/007.jpg" alt="">
-            </div>
-            <div class="row">
-                <img class="img_gallery" src="../scr/gallery2/008.jpg" alt="">
-            </div>
-            <div class="row">
-                <img class="img_gallery" src="../scr/gallery2/009.jpg" alt="">
-            </div>
-        </div>
-
-        <!-- column4 -->
-        <div class="col-3 p-0">
-            <div class="row">
-                <img class="img_gallery" src="../scr/gallery2/010.jpg" alt="">
-            </div>
+    <div class="container-fluid">
+        <div class="row">
+            <?php
+                echo "<div class='col-sm-3'>";
+                    for ($i=1; $i <= 20; $i++){
+                        echo "<img class='img_gallery' src='../scr/gallery/col1/" . $i . ".jpg'>";
+                    }
+                echo "</div>";
+                echo "<div class='col-sm-3'>";
+                    for ($i=1; $i <= 20; $i++){
+                        echo "<img class='img_gallery' src='../scr/gallery/col2/" . $i . ".jpg'>";
+                    }
+                echo "</div>";
+                echo "<div class='col-sm-3'>";
+                    for ($i=1; $i <= 20; $i++){
+                        echo "<img class='img_gallery' src='../scr/gallery/col3/" . $i . ".jpg'>";
+                    }
+                echo "</div>";
+                echo "<div class='col-sm-3'>";
+                    for ($i=1; $i <= 20; $i++){
+                        echo "<img class='img_gallery' src='../scr/gallery/col4/" . $i . ".jpg'>";
+                    }
+                echo "</div>";
+            ?>
         </div>
     </div>
-
 
 
     <!----------------------------------- Back to Top Button ----------------------------------->
