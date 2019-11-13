@@ -122,17 +122,31 @@ body{
 
 /*-------------------------------Index Home-------------------------------*/
 
-/*Cover Home-------------------------------*/
+/* Cover Home------------------------------- */
 
 .cover{
     width: auto;
-    height: 55vh;
+    height: 100vh;
 }
 
 .cover_main{
     width: 100%;
-    height: 480px;
+    height: 100%;
 }
+
+
+/* Start Page Home-------------------------------*/
+
+/* .start_page{
+    text-align: center;
+    margin-top: 200px;
+} */
+
+
+
+
+
+
 
 /*category Home-------------------------------*/
 
@@ -663,14 +677,10 @@ body{
 
 /*------------------------------- footer ------------------------------*/
 
-.footer-nav{
-    color: #cccccc !important;
+footer{
+    background: #f8f9fa!important;
+    color: #666666;
+    padding: 2em 2em 1em 2em;
     text-align: center;
-    width: 100%;
-    height: 5rem;
-    position: relative;
-    bottom: 0;
-    left: auto;
-    right: auto;
-    background-color: white !important;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,0.2);
 }
