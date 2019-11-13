@@ -54,35 +54,50 @@
     </nav>
 
 
-
     <!----------------------------------- Gallery Contents ----------------------------------->
 
     <div class="container-fluid">
-        <div class="row">
-            <?php
+        <div class="my_container_gallery">
+            <div class="row">
+                <?php
                 echo "<div class='col-sm-3'>";
-                    for ($i=1; $i <= 20; $i++){
-                        echo "<img class='img_gallery' src='../scr/gallery/col1/" . $i . ".jpg'>";
-                    }
+                for ($i = 1; $i <= 20; $i++) {
+                    echo "<img class='img_gallery' src='../scr/gallery/col1/" . $i . ".jpg'>";
+                }
                 echo "</div>";
                 echo "<div class='col-sm-3'>";
-                    for ($i=1; $i <= 20; $i++){
-                        echo "<img class='img_gallery' src='../scr/gallery/col2/" . $i . ".jpg'>";
-                    }
+                for ($i = 1; $i <= 20; $i++) {
+                    echo "<img class='img_gallery' src='../scr/gallery/col2/" . $i . ".jpg'>";
+                }
                 echo "</div>";
                 echo "<div class='col-sm-3'>";
-                    for ($i=1; $i <= 20; $i++){
-                        echo "<img class='img_gallery' src='../scr/gallery/col3/" . $i . ".jpg'>";
-                    }
+                for ($i = 1; $i <= 20; $i++) {
+                    echo "<img class='img_gallery' src='../scr/gallery/col3/" . $i . ".jpg'>";
+                }
                 echo "</div>";
                 echo "<div class='col-sm-3'>";
-                    for ($i=1; $i <= 20; $i++){
-                        echo "<img class='img_gallery' src='../scr/gallery/col4/" . $i . ".jpg'>";
-                    }
+                for ($i = 1; $i <= 20; $i++) {
+                    echo "<img class='img_gallery' src='../scr/gallery/col4/" . $i . ".jpg'>";
+                }
                 echo "</div>";
-            ?>
+                ?>
+            </div>
         </div>
     </div>
+
+    <br><br><br><br><br><br>
+
+    <!----------------------------------- Footer ----------------------------------->
+
+    <footer>
+        <h6 class="text-center">copyright © adlensture</h6>
+
+        <div class="unlinks">
+            <a target="_blank" href="https://www.facebook.com/iloveadlensture/"><i class="fab fa-facebook-square fa-lg my_footer"></i></a>
+            <a target="_blank" href="#"><i class="fas fa-envelope fa-lg my_footer"></i></a>
+            <a target="_blank" href="https://github.com/suphakit01/adlensture"><i class="fab fa-github-square fa-lg my_footer"></i></a>
+        </div>
+    </footer>
 
 
     <!----------------------------------- Back to Top Button ----------------------------------->
