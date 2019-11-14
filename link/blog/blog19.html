@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>adlensture</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="../../style.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sarabun&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #cccccc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-------------------------------- Nav Bar -------------------------------->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../../index.html"><img class="mynavbar_brand" src="../../scr/logo/logo2.png"
+                alt="..."></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../index.html">หน้าแรก</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../home_category.html">หมวดหมู่<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../home_blog_post.html">บทความ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../home_gallery.html">แกลอรี</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../home_about.html">เกี่ยวกับ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-------------------------------- Body -------------------------------->
+
+    <div class="container bg_body_up_blog">
+        <div class="img_cover_blog" style="background: url('../../scr/blog_cover/b19.jpg') center/cover;"></div>
+
+        <div class="pl-5 pr-5 pt-3">
+            <h1 class="topic_blog pimary_txt">การถ่ายย้อนแสง (Backlit)</h1>
+            <div class="detail_blog row">
+                <p class="date">27 Oct 2019</p>
+                <p class="muted_color"> Author : Nathachai</p>
+            </div>
+        </div>
+
+        <div class="content_blog">
+            <p class="text_contents">
+                บ่อยครั้งที่คนเราพอเจอการถ่ายภาพย้อนแสงอาทิตย์เข้าสักหน่อยก็เบนกล้องหนีหรือลากนางแบบไปถ่ายที่มุมอื่น
+                หารู้ไม่ว่าภาพถ่ายย้อนแสงนี่แหละคือสุดยอดของการถ่ายภาพบุคคลเลยนะ!
+            </p>
+
+            <img class="img_contents_blog" src="../../scr/img_ct_19/001.jpg" alt=""> <!-- image for content -->
+            <h4 class="subtitle">การถ่ายภาพย้อนแสง คืออะไร?</h4>
+            <p class="text_contents">
+                ภาพย้อนแสง ถ้าจะให้อธิบายเข้าใจแบบเรียบง่ายก็คือ การถ่ายภาพที่เรายืนอยู่ตรงกันข้าม
+                หรือหันหน้าอยู่เกือบจะตรงข้ามกันกับจุดกำเนิดแสง ทำให้คน สิ่งของ วัตถุ ที่เราจะถ่ายนั้นเกิดเงาดำ
+                เนื่องจากแหล่งกำเนิดแสงอยู่ข้างหลังวัตถุนั่นเองครับ
+                ส่วนใหญ่การถ่ายภาพโดยใช้การย้อนแสงที่เราคุ้นตาคือการถ่ายภาพแนวซิลลูเอท (Silhouette)
+            </p>
+
+            <h4 class="subtitle">ปัญหาที่เรามักจะเจอจาก การถ่ายภาพย้อนแสง</h4>
+            <p class="text_contents">
+                สำหรับใครที่เพิ่งเริ่มถ่ายภาพผมขออธิบายให้เข้าใจถึงปัญหาที่มักจะเจอครับ เมื่อเราต้องถ่ายภาพย้อนแสง
+                จะได้เข้าใจและเตรียมตัวให้พร้อม ทุกคนที่ถ่ายภาพจะเจอเรื่องแบบนี้อยู่แล้วแน่นอน 100%
+                ไม่ว่าจะใช้กล้องโทรศัพท์มือถือหรือกล้องดิจิตอลแบบช่างภาพก็ตาม
+            </p>
+            <h6 class="text_contents">1. เงามืดของตัวแบบ วัตถุ หรือสิ่งของ</h6>
+            <p class="text_contents">
+                เมื่อแหล่งกำเนิดแสงอยู่ด้านหลังวัตถุ ก็จะเกิดเงาขึ้น ยิ่งแสงแรงมาก ก็จะทำให้เงามากขึ้น
+                ปัญหาที่ตามมาต่อคือรายละเอียดในตัววัตถุ ก็จะจมไปกับเงา ยกตัวอย่างนางแบบ ผิวสวย ๆ ก็จะดูไม่กระจ่าง
+                เกิดเงาดำ สีที่เคยสดใสก็หม่น มืดลง
+            </p>
+            <h6 class="text_contents">2. กล้องโฟกัสไม่เข้า หรือโฟกัสหลุดบ่อย</h6>
+            <p class="text_contents">
+                กล้องจะจับโฟกัสไม่ค่อยได้ สังเกตถ้าใครใช้มิลเรอร์เรส (Mirrorless) หรือ DSLR
+                (กล้องดิจิตอลที่มีชุดยกกระจก) ก็จะเกิดอาการโฟกัสไม่เข้า วืดวาดบ่อย ๆ อาจจะเซ็งได้
+                หรือจับจังหวะยากลำบากขึ้น
+            </p>
+            <h6 class="text_contents">3. จัดองค์ประกอบยาก ภาพไม่สวย สื่อสารเรื่องราวไม่ได้</h6>
+            <p class="text_contents">
+                เพราะไม่เคยชินกับรายละเอียดที่หายไป แล้วก็อาจจะยังไม่เข้าใจว่าสามารถจัดการกับภาพยังไงได้บ้าง
+                ก็เลยคิดว่าจัดองค์ประกอบยาก ภาพไม่สวย คิดว่าถ้าถ่ายย้อนแสงแล้วได้ภาพแย่แน่นอน
+            </p>
+
+            <h4 class="subtitle">วิธีการถ่ายภาพย้อนแสง ให้สวย</h4>
+            <p class="text_contents">
+                เริ่มจากการทำความเข้าใจกับแนวความคิด (Mindset) ในการถ่ายภาพย้อนแสงนี้ก่อน
+                เพราะแนวคิดเป็นปัจจัยที่ส่งผลต่อจินตนาการในการถ่ายภาพของเราครับ
+            </p>
+
+            <img class="img_contents_blog" src="../../scr/img_ct_19/002.jpg" alt=""> <!-- image for content -->
+            <h4 class="subtitle">เข้าใจเรื่องทิศทางแสง</h4>
+            <p class="text_contents">
+                ตำแหน่งของดวงอาทิตย์ในแต่ละช่วงเวลา เขาให้น้ำหนักแสง และทิศทางของแสงที่แตกต่างกัน
+                สังเกตได้ว่าถ้าเที่ยงตรง แสงแดดจะแรง ภาพจะแข็ง เงาจะอยู่ใต้ตา เพราะแสงอยู่กลางศีรษะเราเลย
+                แต่ถ้าเป็นช่วงเย็นจะได้แสงย้อนที่สวย สีอมส้ม ๆ ทอง ๆ สวยงาม ถ้าเป็นช่วงเช้าแสงจะอ่อนโยน
+                ละมุนน่าถ่ายรูปมาก ถ้าย้อนก็ยังได้อารมณ์ภาพที่แตกต่างจากตอนช่วงเวลาอื่น
+            </p>
+            <p class="text_contents">
+                การเข้าใจเรื่องทิศทางแสงกับช่วงเวลา จะทำให้เรารู้ว่าแสงแดดเวลาไหนเหมาะกับการถ่ายรูป ช่วงเวลาไหนได้สี
+                ได้แสง ได้เงาน้ำหนักเท่าไหร่ เวลาถ่ายย้อนแสงเวลาไหนสวย เวลาไหนไม่ควรนัดเพื่อนมาถ่าย เป็นต้นครับ
+            </p>
+
+            <h4 class="subtitle">อย่ากลัวที่จะถ่ายภาพย้อนแสง</h4>
+            <p class="text_contents">
+                การถ่ายภาพย้อนแสงเป็นโอกาสที่ดีในการสร้างสรรค์ไอเดียภาพสวยงามเยอะแยะมากครับ
+                ให้เปลี่ยนมุมมองใหม่กับคำพูดที่ว่า “อย่าถ่ายภาพย้อนแสง” ให้เป็น “ถ่ายย้อนแสงยังไงให้ภาพสวย” ดีกว่าครับ
+                เพราะช่างภาพนี่วิ่งหาโอกาสการย้อนแสงสวย ๆ เยอะแยะเลย
+            </p>
+
+            <img class="img_contents_blog" src="../../scr/img_ct_19/003.jpg" alt=""> <!-- image for content -->
+            <h4 class="subtitle">ถ่ายภาพย้อนแสงเพื่อให้ได้ภาพแบบ Silhouette</h4>
+            <p class="text_contents">
+                ภาพซิลลูเอท คือภาพที่เราถ่ายย้อนจนให้เห็นแบบเป็นเงามืดดำ แต่รูปลักษณ์ของเงาดำนั้นจะเห็นเป็นภาพที่สวยงาม
+                “ดูรู้เรื่อง” ว่าเงานั้นหมายถึง บุคคล สถานที่ หรือสิ่งของ ซึ่งการถ่ายภาพแบบนี้ความสำคัญจะอยู่ที่
+                “เรื่องราว” และ “องค์ประกอบ” ที่พอดี ไม่รกเกินไป จะเน้นที่ตัวแบบที่มืดกับท้องฟ้าสว่างไปเลย
+            </p>
+
+            <img class="img_contents_blog" src="../../scr/img_ct_19/004.jpg" alt=""> <!-- image for content -->
+            <h4 class="subtitle">การถ่ายภาพให้เกิด Rim Light</h4>
+            <p class="text_contents">
+                ริมไลท์คือแสงที่อยู่ตรงขอบของตัวแบบหรือวัตถุ
+                เกิดจากตำแหน่งของแหล่งกำเนิดแสงอยู่ตำแหน่งที่ตรงกันกับด้านหลังหรือด้านข้างของแบบ
+                ทำให้เกิดขอบแสงเป็นประกาย นิยมใช้กับเส้นผม หรือขอบวัตถุที่มีลักษณะเป็นประกายเล็ก ๆ สวยงาม
+                การถ่ายภาพย้อนแสงแบบทำให้เกิด Rim Light
+                หัวใจสำคัญคือการจัดองค์ประกอบให้เหมาะสมและควรจัดตำแหน่งของแสงให้เข้ามาที่ใบหน้าบ้าง
+                เพื่อไม่ให้เกิดเงามืดที่หน้าเกินไป
+            </p>
+
+            <img class="img_contents_blog" src="../../scr/img_ct_19/005.jpg" alt=""> <!-- image for content -->
+            <h4 class="subtitle">การถ่ายย้อนแสงให้เกิด Flare</h4>
+            <p class="text_contents">
+                แฟลร์ (Flare) เกิดจากแสงที่วิ่งเข้ามาในเลนส์แล้วเกิดการสะท้อนไปมาในชิ้นเลนส์ ก็จะเกิดเอฟเฟคแบบนี้ขึ้น
+                ซึ่งแต่ละเลนส์จะไม่เหมือนกัน ปกติภาพแฟลร์จะเป็นปัญหาของช่างภาพในการถ่ายย้อนแสงซึ่งจะเป็นได้กับทุกเลนส์
+                มากน้อยต่างกันไป
+                เพียงแต่ว่าการใช้แฟลร์ที่เกิดขึ้นในการสร้างเอฟเฟคให้สวยงามก็เป็นอีกวิธีการนึงที่ทำให้ภาพถ่ายดูน่าสนใจขึ้นมาได้
+            </p>
+
+            <img class="img_contents_blog" src="../../scr/img_ct_19/006.jpg" alt=""> <!-- image for content -->
+            <h4 class="subtitle">ใช้แฟลช (Flash) หรือรีเฟลค (Reflect) เติมแสงเข้าที่แบบเพื่อแก้ไขส่วนที่มืด</h4>
+            <p class="text_contents">
+                บางครั้งเราอาจจะเลือกวิธีการเติม Flash เข้าไปตรง ๆ หรือใช้ Reflect ที่เป็นแผ่นสะท้อน
+                น่าจะเคยเห็นคนที่ถ่ายภาพรับปริญญาแล้วเล่นยิงแฟลชตอนกลางวันแสก ๆ
+                นั่นแหละครับเขาทำเพื่อเติมแสงให้เข้าไปที่หน้าของแบบ ทำให้รายละเอียดของใบหน้า ผิว เพิ่มขึ้นมาจากเดิมได้
+                แน่นอนว่าต้องฝึกเรื่องความเข้าใจของทิศทางแสงและน้ำหนักในการเติมแสงเข้าให้เหมาะสม
+                รวมถึงอุปกรณ์ก็อาจจะต้องมีคนช่วยถือ ช่วยเซ็ตด้วย
+            </p>
+
+            <h4 class="subtitle">ถ่ายภาพด้วย RAW File เสมอ</h4>
+            <p class="text_contents">
+                เพื่อใช้ศักยภาพของกล้องให้เต็มที่ เป็นทั้งกระบวนการก่อนและหลังการถ่ายภาพ
+                คือเตรียมตัวเตรียมอุปกรณ์ให้พร้อม และนำภาพกลับมาแต่งเพิ่ม เสริมรายละเอียดให้ดีขึ้น
+                ปรับปรุงจุดที่ไม่ดีในภาพให้ออกไป เราก็จะได้ภาพที่สมบูรณ์มากขึ้นครับ
+            </p>
+
+            <!-------------------------------- End Body -------------------------------->
+
+            <hr class="end_body">
+            <h4 class="title_blog_end_body">แนะนำสำหรับคุณ</h4>
+
+            <div class="row unlinks">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pt-3">
+                    <a href="blog10.html">
+                        <div class="card_next_blog equal-column-contents">
+                            <div class="img_card_next_blog"
+                                style="background: url('../../scr/blog_cover/b10.jpg') center/cover;">
+                            </div>
+                            <div class="container_card">
+                                <h6 class="title_card_next_blog"><b>ไฟล์ RAW vs JPEG</b></h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pt-3">
+                    <a href="blog15.html">
+                        <div class="card_next_blog equal-column-contents">
+                            <div class="img_card_next_blog"
+                                style="background: url('../../scr/blog_cover/b15.jpg') center/cover;">
+                            </div>
+                            <div class="container_card">
+                                <h6 class="title_card_next_blog"><b>การวัดแสงให้พอดี</b>
+                                </h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pt-3">
+                    <a href="blog17.html">
+                        <div class="card_next_blog equal-column-contents">
+                            <div class="img_card_next_blog"
+                                style="background: url('../../scr/blog_cover/b17.jpg') center/cover;">
+                            </div>
+                            <div class="container_card">
+                                <h6 class="title_card_next_blog"><b>การถ่ายดาว (Astrophotography)</b></h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pt-3">
+                    <a href="blog24.html">
+                        <div class="card_next_blog equal-column-contents">
+                            <div class="img_card_next_blog"
+                                style="background: url('../../scr/blog_cover/b24.jpg') center/cover;">
+                            </div>
+                            <div class="container_card">
+                                <h6 class="title_card_next_blog"><b>การถ่ายภาพกีฬา หรือภาพหยุดความเคลื่อนไหว (Sport/Stop Action)</b></h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <br><br><br>
+        </div>
+    </div>
+
+    <!----------------------------------- Back to Top Button ----------------------------------->
+
+    <a id="button"></a>
+
+
+    <!----------------------------------- JS Link ----------------------------------->
+
+    <script src="../../myjs.js"></script>
+
+    <!-- Smooth Scroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Back to Top Button -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/9d6eac584e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
