@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>adlensture</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="../../style.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sarabun&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #cccccc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-------------------------------- Nav Bar -------------------------------->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../../index.html"><img class="mynavbar_brand" src="../../scr/logo/logo2.png" alt="..."></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../index.html">หน้าแรก</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../home_category.html">หมวดหมู่<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../home_blog_post.html">บทความ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../home_gallery.html">แกลอรี</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../home_about.php">เกี่ยวกับ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-------------------------------- Body -------------------------------->
+
+    <div class="container bg_body_up_blog">
+        <div class="img_cover_blog" style="background: url('../../scr/blog_cover/b10.jpg') center/cover;"></div>
+
+        <div class="pl-5 pr-5 pt-3">
+            <h1 class="topic_blog pimary_txt">ไฟล์ RAW VS JPEG</h1>
+            <div class="detail_blog row">
+                <p class="date">11 Oct 2019</p>
+                <p class="muted_color"> Author : Sirawit Pokha</p>
+            </div>
+        </div>
+
+        <div class="content_blog">
+
+            <img class="img_contents_blog" src="../../scr/img_ct_10/001.jpg" alt=""> <!-- image for content -->
+            <h4 class="subtitle">JPEG คืออะไร</h4> <!-- Subtitle -->
+            <p class="text_contents">
+                <br>
+                ไฟล์ JPEG นั้นเป็นไฟล์รูปภาพที่กล้องสามารถบันทึกออกมาได้ผ่านกระบวนการในการปรับแต่งค่าต่าง ๆ
+                ที่ระบบของกล้องแต่ละตัวจะเป็นตัวกำหนด ไม่ว่าจะเป็นเรื่องสีผิว, สีของต้นไม้หรือท้องฟ้าต่างๆ
+                รวมทั้งสัญญาณภาพรบกวน (Noise) โดยถ้าบันทึกภาพถ่ายด้วยไฟล์ JPEG ภาพที่ได้จะสามารถนำไปใช้งานได้ทันที
+                หรือหากต้องการนำไปปรับแต่งก็สามารถทำได้เช่นเดียวกัน แต่ข้อจำกัดของไฟล์ JPEG
+                ก็คือภาพจะถูกบีบอีดมาจากการประมวลผลของกล้องแล้ว ซึ่งนั้นทำให้ขอบเขตในการดึงแสงและสีต่างๆ ในโปรแกรมอย่าง
+                Lightroom เป็นเรื่องที่ทำได้ยากขึ้น เพราะมีข้อจำกัดอยู่นั่นเอง
+            </p>
+            <ul>
+                <li>
+                    <p class="text_contents">ข้อดีของการถ่ายภาพด้วยไฟล์ JPEG</p>
+                    <ul>
+                        <li>
+                            <p class="text_contents">ได้ไฟล์ภาพทันที สามารถส่งต่อเข้าสมาร์ทโฟน แชร์ขึ้นโซเชียลได้เลย
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text_contents">ไฟล์มีขนาดเล็ก กล้องถ่ายภาพต่อเนื่องได้มากขึ้น ต่อเนื่องขึ้น
+                                เคลียร์ข้อมูลจากกล้องลงเมมได้เร็ว
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text_contents">สามารถใช้คำสั่งของกล้องแต่งสีเข้าไปได้ทันที
+                                ถ่ายปุ๊บก็ได้สีแบบนั้นปั๊บ
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text_contents">สามารถใช้คำสั่งของกล้องแก้ไขส่วนที่ผิดพลาดของอุปกรณ์ได้ เช่น ขอบมืด
+                                ขอบม่วง สัญญาณรบกวน(Noise) ได้ทันที
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p class="text_contents">ข้อเสียของการถ่ายภาพด้วยไฟล์ JPEG</p>
+                    <ul>
+                        <li>
+                            <p class="text_contents">นำภาพมาแต่งได้ยากกว่า เพราะไฟล์ถูกบีบอัดข้อมูล และตกแต่งมาแล้ว
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text_contents">การแก้ไขข้อผิดพลาดจากการถ่าย เช่น White Balance
+                                จะแก้ไขได้ลำบากกว่า เพราะไฟล์ภาพถูกบีบอัดข้อมูลมาแล้ว
+                                ทำให้ขั้นตอนตกแต่งแก้ไขไม่ยืดหยุ่นเท่าไฟล์ RAW
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text_contents">เสียโอกาสที่จะนำภาพที่ถ่ายได้ มาใช้ร่วมกับ Software ตัวใหม่ ๆ
+                                ที่ถูกพัฒนา เพราะด้วยเหตุผลเดียวกับข้อที่แล้วคือไฟล์ถูกแบบอัดข้อมูลมาแล้ว
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text_contents">สามารถใช้คำสั่งของกล้องแก้ไขส่วนที่ผิดพลาดของอุปกรณ์ได้ เช่น ขอบมืด
+                                ขอบม่วง สัญญาณรบกวน(Noise) ได้ทันที
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h4 class="subtitle">RAW คืออะไร</h4> <!-- Subtitle -->
+                    
+                    <p class="text_contents">สำหรับการถ่ายภาพด้วยไฟล์ RAW นั้น จะเป็นการถ่ายภาพด้วยไฟล์ดิบหรือพูดง่าย ๆ
+                        ก็คือภาพที่ได้จะไม่ผ่านการประมวลผลหรือการตกแต่งด้วยระบบอัจฉริยะของกล้องแต่อย่างใด
+                        ฉะนั้นภาพที่บันทึกด้วยไฟล์ RAW จะดูเป็นกลางสุด ๆ ตามที่กล้องเก็บมาได้แหละ แต่ทั้งนี้ทั้งนั้น
+                        ด้วยความที่มันเป็นไฟล์ดิบ ก็เหมือนกับอาหารที่ยังไม่ผ่านการปรุง ฉะนั้นแล้ว
+                        เราจึงสามารถที่จะนำเอาความดิบนั้นมาปรุงแต่งเพื่อให้ได้รสชาติที่หลากหลาย
+                        และเติมแต่งสีสันได้อย่างไร้ขอบเขต ซึ่งปัจจุบันก็มีโปรแกรมมากมายที่รองรับภาพถ่ายที่เป็นไฟล์ RAW
+                        เมื่อรู้ความหมายของทั้ง JPEG และ RAW กันแล้ว เชื่อว่าก็ยังมีอีกหลายคนที่ยังสงสัยกันอยู่ว่า
+                        “แล้วไอ้เจ้าไฟล์สองอย่างนี้มันเหมาะจะใช้งานกับการถ่ายประเภทไหนบ้าง?”
+                        แน่นอนว่าเราก็มีคำแนะนำสำหรับการใช้งานที่เหมาะสมสำหรับแต่ละไฟล์มาฝากกันด้วย
+
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p class="text_contents">ข้อดีของการถ่ายภาพด้วยไฟล์ RAW</p>
+                    <ul>
+                        <li>
+                            <p class="text_contents">ได้ไฟล์ที่เป็นต้นฉบับของตัวกล้องจริง นำมาใช้ปรับแต่งได้สุดมาก
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text_contents">ไฟล์ RAW เป็นไฟล์ข้อมูลขนาดใหญ่มาก
+                                ทำให้เราสามารถปรับค่าหลายอย่างเพื่อแก้ไขให้ภาพสมบูรณ์ได้มากขึ้น เช่น White Balance
+                                สามารถปรับทีหลังได้, การดึงรายละเอียดของค่าความสว่าง, การดึงรายละเอียดส่วนมืด เป็นต้น
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text_contents">ช่วยให้ช่างภาพทำงานได้สะดวก เช่น แม้ภาพจะถ่ายพลาดมา
+                                อาจจะมืดกว่าปกติ หรือสว่างกว่าปกติก็สามารถปรับแต่งได้
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text_contents">เหมาะกับคนที่ต้องการไฟล์ภาพที่สมบูรณ์ที่สุด
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p class="text_contents">ข้อเสียของการถ่ายภาพด้วยไฟล์ RAW</p>
+                    <ul>
+                        <li>
+                            <p class="text_contents">ไฟล์มีขนาดใหญ่กว่า JPEG หลายเท่า เช่น กล้องผม JPEG 15-20MB แต่
+                                RAW จะมีขนาดเกือบ ๆ 100MB เลย ทำให้เวลาถ่ายภาพงานต่าง ๆ ต้องวางแผนให้เหมาะสม
+                                งานไหนควรถ่าย RAW งานไหนควรถ่าย JPEG
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text_contents">อุปกรณ์บันทึกข้อมูลเต็มเร็วมาก ทั้ง Memory Card,External Hard Disk,
+                                Solid State Drive
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text_contents">ไม่สามารถนำภาพไปใช้ได้ทันทีเมื่อเทียบกับ JPEG เพราะไฟล์ RAW
+                                ต้องผ่านซอฟต์แวร์ Converter File ก่อน และใช้เวลามาก
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text_contents">เวลาเลือกภาพมาแต่งปริมาณมาก ๆ ทำให้เหนื่อย
+                                เสียอารมณ์ในการแต่งภาพและการทำงานพอสมควร ควรบริหารเวลาให้ดี
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text_contents">ไฟล์กล้องที่มีความละเอียดสูง 30 Megapixel ขึ้นไป
+                                คอมพิวเตอร์จะรับภาระหนักในการโปรเซสภาพ ยิ่งทำงานหลายซอฟต์แวร์ที่มีความซับซ้อน ทำหลายต่อ
+                                หลายเลเยอร์ เครื่องคอมฯ ต้องแรง เร็ว ไม่งั้นทำงานช้าลงมากเหมือนกัน
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <img class="img_contents_blog" src="../../scr/img_ct_10/002.jpg" alt=""> <!-- image for content -->
+            <li>
+                    <p class="text_contents">รูปภาพด้านบนนี้ถูกบันทึกในรูปแบบ JPEG และ RAW จะเห็นได้ว่าบริเวณดวงอาทิตย์เบลอมากเกินไป
+                         และเมื่อขยับจากดวงอาทิตย์มาเล็กน้อยดูไม่สดใส ดังนั้นเพื่อให้ภาพถ่ายดูเป็นธรมชาติมากขึ้นจึงควรมีการปรับแต่งแก้ไขภาพเล็กน้อย
+                          การปรับแต่งไฟล์ภาพจะทำให้เราเห็นถึงความแตกต่างระหว่างไฟล์ JPEG และ RAW ชัดเจนขึ้น
+
+                    </p>
+                </li>
+                <img class="img_contents_blog" src="../../scr/img_ct_10/004.jpg" alt=""> <!-- image for content -->
+            <li>
+                    <p class="text_contents">ปัญหาหลักของไฟล์ภาพ JPEG คือไฟล์จะมีการบีบอัดข้อมูล ซึ่งทำให้ไม่สามารถปรับแต่งภาพเพิ่มเติมได้มากนัก
+                         จะเห็นได้ว่าเมื่อนำไฟล์ไปปรับแต่ง Highlights และ Shadows ให้ลดลง ตามรูปภาพด้านบน ต้นไม้ภายในภาพจะดูไม่เป็นธรรมชาติ และดวงอาทิตย์ก็ยังคงดูทึบเช่นเดิม
+
+                    </p>
+                </li>
+                <img class="img_contents_blog" src="../../scr/img_ct_10/003.jpg" alt=""> <!-- image for content -->
+            <li>
+                    <p class="text_contents">ส่วนไฟล์ RAW นั้นไม่มีการบีบอัดข้อมูลใดๆ ทำให้สามารถเก็บรายละเอียดได้มากกว่าไฟล์ JPEG 
+                        หลังจากนำไปปรับแต่งแบบเดียวกันจะเห็นได้ว่าไฟล์ RAW จะให้ภาพที่ดูน่าสนใจและเป็นธรรมชาติมากกว่า ตามรูปภาพด้านบน
+
+                    </p>
+                </li>
+    
+
+
+
+            <!-------------------------------- End Body -------------------------------->
+
+            <hr class="end_body">
+            <h4 class="title_blog_end_body">แนะนำสำหรับคุณ</h4>
+
+
+            <div class="row unlinks">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pt-3">
+                    <a href="blog7.html">
+                        <div class="card_next_blog equal-column-contents">
+                            <div class="img_card_next_blog"
+                                style="background: url('../../scr/blog_cover/b7.jpg') center/cover;">
+                            </div>
+                            <div class="container_card">
+                                <h6 class="title_card_next_blog"><b>อุปกรณ์ที่ควรมี</b></h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pt-3">
+                    <a href="blog8.html">
+                        <div class="card_next_blog equal-column-contents">
+                            <div class="img_card_next_blog"
+                                style="background: url('../../scr/blog_cover/b8.jpg') center/cover;">
+                            </div>
+                            <div class="container_card">
+                                <h6 class="title_card_next_blog"><b>วิธีการทำความสะอาดกล้องด้วยตัวเอง</b></h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pt-3">
+                    <a href="blog9.html">
+                        <div class="card_next_blog equal-column-contents">
+                            <div class="img_card_next_blog"
+                                style="background: url('../../scr/blog_cover/b9.jpg') center/cover;">
+                            </div>
+                            <div class="container_card">
+                                <h6 class="title_card_next_blog"><b>การเลือก Memory</b></h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pt-3">
+                    <a href="blog11.html">
+                        <div class="card_next_blog equal-column-contents">
+                            <div class="img_card_next_blog"
+                                style="background: url('../../scr/blog_cover/b11.jpg') center/cover;">
+                            </div>
+                            <div class="container_card">
+                                <h6 class="title_card_next_blog"><b>ความสัมพันธ์ระหว่าง Speed Shutter, ISO, ค่า f</b></h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <br><br><br>
+        </div>
+    </div>
+
+    <!----------------------------------- Back to Top Button ----------------------------------->
+
+    <a id="button"></a>
+
+
+    <!----------------------------------- JS Link ----------------------------------->
+
+    <script src="../../myjs.js"></script>
+
+    <!-- Smooth Scroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Back to Top Button -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/9d6eac584e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
