@@ -479,8 +479,6 @@ body {
     min-width: auto;
     width: auto !important;
     height: 80%;
-    max-width: 100%;
-    height: auto;
 }
 
 @keyframes zoom {
