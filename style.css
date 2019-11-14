@@ -457,7 +457,7 @@ body {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 100px;
+    padding: 5vw;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -476,9 +476,16 @@ body {
 .modal-content {
     margin: auto;
     display: block;
-    min-width: auto;
     width: auto !important;
-    height: 80%;
+    height: 100%;
+    min-width: auto;
+}
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100% !important;
+        height: auto !important;
+    }
 }
 
 @keyframes zoom {
@@ -505,12 +512,6 @@ body {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
-}
-
-@media only screen and (max-width: 700px) {
-    .modal-content {
-        width: 100%;
-    }
 }
 
 
