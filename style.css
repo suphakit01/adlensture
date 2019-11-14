@@ -236,68 +236,6 @@ body {
 }
 
 
-/*About Home-------------------------------*/
-
-.about {
-    color: #666666 !important;
-    margin-top: 25em;
-    margin-bottom: 10em;
-}
-
-.img_tumbnail_about {
-    border-radius: 1em;
-    max-width: 100%;
-    height: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.profile_frame {
-    border: 0.5px rgb(0, 0, 0, 10%) solid;
-    border-radius: 1em;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 1em;
-    margin: 0em 0em 3em 0em;
-}
-
-.text_about {
-    padding: 15vw 12vw 10vw 12vw;
-    text-align: center;
-    color: #999999 !important;
-}
-
-.about_container {
-    padding: 0 22vw 5em 22vw !important;
-}
-
-.details_about {
-    margin-top: 0em;
-}
-
-.details_about h2 {
-    font-size: 2.5vw !important;
-}
-
-@media (max-width: 1200px) {
-    .details_about {
-        margin-top: 2em !important;
-    }
-    .details_about h2 {
-        font-size: 5vw !important;
-    }
-}
-
-.position_about {
-    border-radius: 1em;
-    background-color: #339999;
-    color: white !important;
-    padding: 0em 0.5em 0em 0.5em;
-    margin-right: 1em;
-    display: inline;
-    margin-right: 0;
-    font-size: 10px !important;
-}
-
-
 /*---------------------------------- category_1 --------------------------------*/
 
 
@@ -500,6 +438,98 @@ body {
 }
 
 
+/* Click Full Screen IMG-------------------------------------*/
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {
+    opacity: 0.7;
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modal-content,
+#caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
 /*-------------------------------------------------------------------*/
 
 #button {
@@ -540,6 +570,89 @@ body {
 #button.show {
     opacity: 1;
     visibility: visible;
+}
+
+
+/*------------------------------- About ------------------------------*/
+
+
+/*-------------------------------------*/
+
+.about {
+    color: #666666 !important;
+    margin-top: 25em;
+    margin-bottom: 10em;
+}
+
+.img_tumbnail_about {
+    border-radius: 1em;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.profile_frame {
+    border: 0.5px rgb(0, 0, 0, 10%) solid;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    margin: 0em 0em 3em 0em;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.profile_frame:hover {
+    transform: scale(1.02);
+}
+
+.text_about {
+    padding: 1vw 13vw 10vw 13vw;
+    text-align: center;
+    color: #999999 !important;
+}
+
+.about_container {
+    padding: 0 22vw 5em 22vw !important;
+}
+
+@media (min-width: 1140px) {
+    .about_container {
+        margin: auto !important;
+    }
+}
+
+.details_about h2 {
+    font-size: 2.5vw !important;
+}
+
+@media (max-width: 1200px) {
+    .details_about {
+        margin-top: 2em !important;
+    }
+    .details_about h2 {
+        font-size: 5vw !important;
+    }
+}
+
+.position_about {
+    border-radius: 1em;
+    background-color: #339999;
+    color: white !important;
+    padding: 0em 0.5em 0em 0.5em;
+    margin-right: 1em;
+    display: inline;
+    margin-right: 0;
+    font-size: 10px !important;
+}
+
+.art_work1 {
+    max-width: 20%;
+    margin: 3em auto 0 auto !important;
+    display: block;
+}
+
+.contact_about {
+    margin-top: 1em !important;
 }
 
 

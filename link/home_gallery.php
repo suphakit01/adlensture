@@ -62,25 +62,30 @@
                 <?php
                 echo "<div class='col-sm-3'>";
                 for ($i = 1; $i <= 20; $i++) {
-                    echo "<img class='img_gallery' src='../scr/gallery/col1/" . $i . ".jpg'>";
+                    echo "<img id='myImg' class='img_gallery myImages' src='../scr/gallery/col1/" . $i . ".jpg'>";
                 }
                 echo "</div>";
                 echo "<div class='col-sm-3'>";
                 for ($i = 1; $i <= 20; $i++) {
-                    echo "<img class='img_gallery' src='../scr/gallery/col2/" . $i . ".jpg'>";
+                    echo "<img id='myImg' class='img_gallery myImages' src='../scr/gallery/col2/" . $i . ".jpg'>";
                 }
                 echo "</div>";
                 echo "<div class='col-sm-3'>";
                 for ($i = 1; $i <= 20; $i++) {
-                    echo "<img class='img_gallery' src='../scr/gallery/col3/" . $i . ".jpg'>";
+                    echo "<img id='myImg' class='img_gallery myImages' src='../scr/gallery/col3/" . $i . ".jpg'>";
                 }
                 echo "</div>";
                 echo "<div class='col-sm-3'>";
                 for ($i = 1; $i <= 20; $i++) {
-                    echo "<img class='img_gallery' src='../scr/gallery/col4/" . $i . ".jpg'>";
+                    echo "<img id='myImg' class='img_gallery myImages' src='../scr/gallery/col4/" . $i . ".jpg'>";
                 }
                 echo "</div>";
                 ?>
+            </div>
+
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
             </div>
         </div>
     </div>
@@ -94,7 +99,7 @@
 
         <div class="unlinks">
             <a target="_blank" href="https://www.facebook.com/iloveadlensture/"><i class="fab fa-facebook-square fa-lg my_footer"></i></a>
-            <a target="_blank" href="#"><i class="fas fa-envelope fa-lg my_footer"></i></a>
+            <a target="_blank" href=mailto:adlensture@gmail.com?><i class="fas fa-envelope fa-lg my_footer"></i></a>
             <a target="_blank" href="https://github.com/suphakit01/adlensture"><i class="fab fa-github-square fa-lg my_footer"></i></a>
         </div>
     </footer>
@@ -103,6 +108,35 @@
     <!----------------------------------- Back to Top Button ----------------------------------->
 
     <a id="button"></a>
+
+
+    <!----------------------------------- Click Full Screen IMG ----------------------------------->
+
+    <script>
+        // create references to the modal...
+        var modal = document.getElementById('myModal');
+        // to all images -- note I'm using a class!
+        var images = document.getElementsByClassName('myImages');
+        // the image in the modal
+        var modalImg = document.getElementById("img01");
+
+        // Go through all of the images with our custom class
+        for (var i = 0; i < images.length; i++) {
+            var img = images[i];
+            // and attach our click listener for this image.
+            img.onclick = function(evt) {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+        }
+
+        var span = document.getElementsByClassName("close")[0];
+
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+    </script>
 
 
 
