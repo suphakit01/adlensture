@@ -505,7 +505,7 @@ body {
     top: 15px;
     right: 35px;
     color: #f1f1f1;
-    font-size: 100px;
+    font-size: 4rem !important;
     font-weight: bold;
     transition: 0.3s;
 }
