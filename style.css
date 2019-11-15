@@ -537,7 +537,7 @@ body {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding: 5vw;
+    padding: 4vw;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -567,7 +567,16 @@ body {
         max-width: 100%;
         height: auto;
         max-height: 100% !important;
-        margin-top: 10vh;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .modal-content {
+        width: auto !important;
+        max-width: 100%;
+        height: auto;
+        max-height: 100% !important;
+        margin-top: 6vh;
     }
 }
 
@@ -582,19 +591,24 @@ body {
 
 .close {
     position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 4rem !important;
-    font-weight: bold;
+    top: 10px;
+    right: 10px;
+    color: #666666 !important;
+    font-size: 3em !important;
+    z-index: 1000;
+    border-radius: 1em;
+    padding: 0.1vh 1vh 0.1vh 1vh !important;
+    opacity: 1 !important;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .close:hover,
 .close:focus {
-    color: #bbb;
+    color: #ffffff;
     text-decoration: none;
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 
