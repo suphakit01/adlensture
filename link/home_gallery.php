@@ -117,7 +117,7 @@
 
         <div class="unlinks">
             <a target="_blank" href="https://www.facebook.com/iloveadlensture/"><i class="fab fa-facebook-square fa-lg my_footer"></i></a>
-            <a target="_blank" href=mailto:adlensture@gmail.com?><i class="fas fa-envelope fa-lg my_footer"></i></a>
+            <a target="_blank" href=mailto:adlenstureofficial@gmail.com?><i class="fas fa-envelope fa-lg my_footer"></i></a>
             <a target="_blank" href="https://github.com/suphakit01/adlensture"><i class="fab fa-github-square fa-lg my_footer"></i></a>
         </div>
     </footer>
