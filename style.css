@@ -481,7 +481,7 @@ body {
     min-width: auto;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1920px) {
     .modal-content {
         width: auto !important;
         max-width: 100%;
