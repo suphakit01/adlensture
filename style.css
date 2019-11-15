@@ -126,16 +126,96 @@ body {
 /*-------------------------------Index Home-------------------------------*/
 
 
-/* Cover Home------------------------------- */
+/*start | Home -------------------------------*/
 
 .cover {
-    width: auto;
-    height: 100vh;
+    width: 100%;
+    height: 80vh;
+    box-sizing: border-box;
 }
 
-.cover_main {
-    width: 100%;
-    height: 100%;
+.site_title {
+    text-align: center;
+    margin-top: 30vh;
+    position: relative;
+}
+
+.site_title2 p {
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.site_title h4 {
+    font-family: 'Pacifico', cursive;
+    font-size: 8vw;
+    color: #627d88;
+    position: relative;
+}
+
+@media (max-width:992px) {
+    .site_title2 p {
+        font-size: 3vw;
+    }
+    .site_title h4 {
+        font-size: 15vw;
+    }
+}
+
+@keyframes filling {
+    from {
+        background-position: center 2%;
+    }
+    to {
+        background-position: center 50%;
+    }
+}
+
+.container-text {
+    background-image: url('scr/logo/bg_logo.jpg');
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: filling 4s ease forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+.site_title {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: fade-in 4.5s;
+}
+
+.site_title2 {
+    -webkit-background-clip: text;
+    animation: fade-in 10s;
+}
+
+.button_start {
+    border-radius: 2em;
+    /* background-color: #339999 !important; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #cccccc;
+    color: white !important;
+    padding: 0.5em 1em 0.5em 1em;
+    text-decoration: none !important;
+    transition: 0.3s;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    margin: auto !important;
+    display: table;
+}
+
+.button_start:hover {
+    background-image: linear-gradient(to right, #79CBCA -50%, #79CBCA 0%, #07a3b2 100%);
+    color: white !important;
+    transform: scale(1.05);
 }
 
 
