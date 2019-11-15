@@ -66,11 +66,7 @@
                 }
                 echo "</div>";
                 echo "<div class='col-sm-3'>";
-<<<<<<< HEAD
                 for ($i = 1; $i <= 16; $i++) {
-=======
-                for ($i = 1; $i <= 19; $i++) {
->>>>>>> 12d68f274994975445e512bb76f9ef3eac6e0794
                     echo "<img id='myImg' class='img_gallery myImages' src='../scr/gallery/col2/" . $i . ".jpg'>";
                 }
                 echo "</div>";
