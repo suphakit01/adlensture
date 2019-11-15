@@ -66,17 +66,17 @@
                 }
                 echo "</div>";
                 echo "<div class='col-sm-3'>";
-                for ($i = 1; $i <= 16; $i++) {
+                for ($i = 1; $i <= 17; $i++) {
                     echo "<img id='myImg' class='img_gallery myImages' src='../scr/gallery/col2/" . $i . ".jpg'>";
                 }
                 echo "</div>";
                 echo "<div class='col-sm-3'>";
-                for ($i = 1; $i <= 16; $i++) {
+                for ($i = 1; $i <= 17; $i++) {
                     echo "<img id='myImg' class='img_gallery myImages' src='../scr/gallery/col3/" . $i . ".jpg'>";
                 }
                 echo "</div>";
                 echo "<div class='col-sm-3'>";
-                for ($i = 1; $i <= 16; $i++) {
+                for ($i = 1; $i <= 14; $i++) {
                     echo "<img id='myImg' class='img_gallery myImages' src='../scr/gallery/col4/" . $i . ".jpg'>";
                 }
                 echo "</div>";
