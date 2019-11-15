@@ -483,11 +483,11 @@ body {
 
 @media only screen and (max-width: 700px) {
     .modal-content {
-        margin-top: 2em;
         width: auto !important;
         max-width: 100%;
         height: auto;
         max-height: 100% !important;
+        margin-top: 10vh;
     }
 }
 
